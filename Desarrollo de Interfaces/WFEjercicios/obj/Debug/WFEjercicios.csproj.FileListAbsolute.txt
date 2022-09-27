@@ -1,0 +1,14 @@
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.csproj.AssemblyReference.cache
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.csproj.SuggestedBindingRedirects.cache
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FPrincipal.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.Properties.Resources.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.csproj.GenerateResource.cache
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.csproj.CoreCompileInputs.cache
+C:\Users\oscar\source\repos\WFEjercicios\bin\Debug\WFEjercicios.exe.config
+C:\Users\oscar\source\repos\WFEjercicios\bin\Debug\WFEjercicios.exe
+C:\Users\oscar\source\repos\WFEjercicios\bin\Debug\WFEjercicios.pdb
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.exe
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.pdb
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer1.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer2.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer3.resources
