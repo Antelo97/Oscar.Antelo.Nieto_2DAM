@@ -3,7 +3,7 @@ import java.io.FileOutputStream;
 import java.io.RandomAccessFile;
 import java.util.ArrayList;
 
-public class Ej_06_RandomAcessFile {
+public class E06_RandomAcessFile {
 
     public static void main(String[] args) {
 

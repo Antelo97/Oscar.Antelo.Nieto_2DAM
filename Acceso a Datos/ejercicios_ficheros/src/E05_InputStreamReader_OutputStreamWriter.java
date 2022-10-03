@@ -1,7 +1,7 @@
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-public class Ej_05_InputStreamReader_OutputStreamWriter {
+public class E05_InputStreamReader_OutputStreamWriter {
 
     public static void main(String[] args) {
 

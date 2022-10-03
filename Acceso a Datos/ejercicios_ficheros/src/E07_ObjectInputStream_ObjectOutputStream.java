@@ -1,9 +1,8 @@
-import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-public class Ej_07_ObjectInputStream_ObjectOutputStream {
+public class E07_ObjectInputStream_ObjectOutputStream {
 
     public static void main(String[] args) throws ParseException {
 

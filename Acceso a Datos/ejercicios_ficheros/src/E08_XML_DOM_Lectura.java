@@ -8,7 +8,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.util.ArrayList;
 
-public class Ej_08_XML_DOM_Lectura {
+public class E08_XML_DOM_Lectura {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Ej_03_FileOutputStream {
+public class E03_FileOutputStream {
 
     public static void main(String[] args) {
 

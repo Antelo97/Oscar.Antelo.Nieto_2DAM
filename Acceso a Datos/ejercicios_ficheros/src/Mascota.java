@@ -1,12 +1,10 @@
 public class Mascota {
-
     private String name;
     private String type;
     private int age;
     private String gender;
 
     public Mascota() {
-
     }
 
     public Mascota(String name, String type, int age, String gender) {
@@ -50,7 +48,7 @@ public class Mascota {
 
     @Override
     public String toString() {
-        String result = this.name + ", " + this.type + ", " + this.age + ", " + this.gender;
+        String result = name + ", " + type + ", " + age + ", " + gender;
         return result;
     }
 }

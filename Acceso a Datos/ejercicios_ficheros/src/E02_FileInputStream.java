@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class Ej_02_FileInputStream {
+public class E02_FileInputStream {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Ej_04_BufferedReader {
+public class E04_BufferedReader {
 
     public static void main(String[] args) {
 
