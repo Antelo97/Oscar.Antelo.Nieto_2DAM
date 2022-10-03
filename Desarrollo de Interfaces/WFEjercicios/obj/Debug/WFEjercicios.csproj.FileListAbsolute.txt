@@ -12,3 +12,9 @@ C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.pdb
 C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer1.resources
 C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer2.resources
 C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer3.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\Interop.WMPLib.dll
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.csproj.ResolveComReference.cache
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer4.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer5.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer6.resources
+C:\Users\oscar\source\repos\WFEjercicios\obj\Debug\WFEjercicios.FEjer7.resources

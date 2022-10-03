@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alumno.cs" />
     <Compile Include="FEjer1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +65,30 @@
     <Compile Include="FEjer3.Designer.cs">
       <DependentUpon>FEjer3.cs</DependentUpon>
     </Compile>
+    <Compile Include="FEjer4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEjer4.Designer.cs">
+      <DependentUpon>FEjer4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FEjer5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEjer5.Designer.cs">
+      <DependentUpon>FEjer5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FEjer6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEjer6.Designer.cs">
+      <DependentUpon>FEjer6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FEjer7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEjer7.Designer.cs">
+      <DependentUpon>FEjer7.cs</DependentUpon>
+    </Compile>
     <Compile Include="FPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +105,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FEjer3.resx">
       <DependentUpon>FEjer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEjer4.resx">
+      <DependentUpon>FEjer4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEjer5.resx">
+      <DependentUpon>FEjer5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEjer6.resx">
+      <DependentUpon>FEjer6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEjer7.resx">
+      <DependentUpon>FEjer7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FPrincipal.resx">
       <DependentUpon>FPrincipal.cs</DependentUpon>
@@ -133,6 +170,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\maseratiRojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

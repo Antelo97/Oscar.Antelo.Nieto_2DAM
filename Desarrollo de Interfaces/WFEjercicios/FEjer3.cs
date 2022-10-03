@@ -48,14 +48,34 @@ namespace WFEjercicios
             elegirCoche();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void radioButton3_CheckedChanged_1(object sender, EventArgs e)
         {
             elegirCoche();
         }
 
-        private void groupBox2_Enter(object sender, EventArgs e)
+        private void radioButton4_CheckedChanged_1(object sender, EventArgs e)
         {
             elegirCoche();
+        }
+
+        private void radioButton5_CheckedChanged_1(object sender, EventArgs e)
+        {
+            elegirCoche();
+        }
+
+        private void radioButton6_CheckedChanged_1(object sender, EventArgs e)
+        {
+            elegirCoche();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -63,43 +83,43 @@ namespace WFEjercicios
             
         }
 
-        private void elegirCoche()
-        {
-            if (radioButton4.Checked && radioButton1.Checked)
+        private void elegirCoche() {
+
+            if (rbFerrari.Checked && rbBlack.Checked)
             {
                 pictureBox1.Image = Resources.ferrariNegro;
             }
-            else if (radioButton1.Checked && radioButton5.Checked)
+            else if (rbFerrari.Checked && rbRed.Checked)
             {
                 pictureBox1.Image = Resources.ferrariRojo;
             }
-            else if (radioButton1.Checked && radioButton6.Checked)
+            else if (rbFerrari.Checked && rbYellow.Checked)
             {
                 pictureBox1.Image = Resources.ferrariAmarillo;
             }
-            else if (radioButton2.Checked && radioButton4.Checked)
+            else if (rbBugatti.Checked && rbBlack.Checked)
             {
                 pictureBox1.Image = Resources.bugattiNegro;
             }
-            else if (radioButton2.Checked && radioButton5.Checked)
+            else if (rbBugatti.Checked && rbRed.Checked)
             {
                 pictureBox1.Image = Resources.bugattiRojo;
             }
-            else if (radioButton2.Checked && radioButton6.Checked)
+            else if (rbBugatti.Checked && rbYellow.Checked)
             {
                 pictureBox1.Image = Resources.bugattiAmarillo;
             }
-            else if (radioButton3.Checked && radioButton4.Checked)
+            else if (rbMaserati.Checked && rbBlack.Checked)
             {
                 pictureBox1.Image = Resources.maseratiNegro;
             }
-            else if (radioButton3.Checked && radioButton5.Checked)
+            else if (rbMaserati.Checked && rbRed.Checked)
             {
                 pictureBox1.Image = Resources.maseratiRojo;
             }
-            else if (radioButton3.Checked && radioButton6.Checked)
+            else if (rbMaserati.Checked && rbYellow.Checked)
             {
-                pictureBox1.Image = Resources.ferrariAmarillo;
+                pictureBox1.Image = Resources.maseratiAmarillo;
             }
             else
             {

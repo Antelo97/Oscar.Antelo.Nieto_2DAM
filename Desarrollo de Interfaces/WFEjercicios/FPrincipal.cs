@@ -8,6 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace WFEjercicios
 {
@@ -99,6 +100,46 @@ namespace WFEjercicios
         {
             FEjer3 ejercicio_03 = new FEjer3();
             ejercicio_03.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FEjer4 ejercicio_04 = new FEjer4();
+            ejercicio_04.ShowDialog();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            //lbTimer.Text = "Evento 1";
+            //lbTimer.Text = "Evento 2";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FEjer5 ejercicio_05 = new FEjer5();
+            ejercicio_05.ShowDialog();
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            FEjer6 ejercicio_06 = new FEjer6();
+            ejercicio_06.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FEjer7 ejercicio_07 = new FEjer7();
+            ejercicio_07.ShowDialog();
         }
     }
 }

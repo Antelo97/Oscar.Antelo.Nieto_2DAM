@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rbMaserati = new System.Windows.Forms.RadioButton();
+            this.rbBugatti = new System.Windows.Forms.RadioButton();
+            this.rbFerrari = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rbYellow = new System.Windows.Forms.RadioButton();
+            this.rbRed = new System.Windows.Forms.RadioButton();
+            this.rbBlack = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -44,9 +44,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rbMaserati);
+            this.groupBox1.Controls.Add(this.rbBugatti);
+            this.groupBox1.Controls.Add(this.rbFerrari);
             this.groupBox1.Location = new System.Drawing.Point(133, 22);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 168);
@@ -55,46 +55,47 @@
             this.groupBox1.Text = "Elegir marca";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // radioButton1
+            // rbMaserati
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(42, 33);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(67, 20);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Ferrari";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.rbMaserati.AutoSize = true;
+            this.rbMaserati.Location = new System.Drawing.Point(42, 109);
+            this.rbMaserati.Name = "rbMaserati";
+            this.rbMaserati.Size = new System.Drawing.Size(80, 20);
+            this.rbMaserati.TabIndex = 2;
+            this.rbMaserati.TabStop = true;
+            this.rbMaserati.Text = "Maserati";
+            this.rbMaserati.UseVisualStyleBackColor = true;
+            this.rbMaserati.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged_1);
             // 
-            // radioButton2
+            // rbBugatti
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(42, 70);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(69, 20);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Bugatti";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.rbBugatti.AutoSize = true;
+            this.rbBugatti.Location = new System.Drawing.Point(42, 70);
+            this.rbBugatti.Name = "rbBugatti";
+            this.rbBugatti.Size = new System.Drawing.Size(69, 20);
+            this.rbBugatti.TabIndex = 1;
+            this.rbBugatti.TabStop = true;
+            this.rbBugatti.Text = "Bugatti";
+            this.rbBugatti.UseVisualStyleBackColor = true;
+            this.rbBugatti.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // radioButton3
+            // rbFerrari
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(42, 109);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(80, 20);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Maserati";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbFerrari.AutoSize = true;
+            this.rbFerrari.Location = new System.Drawing.Point(42, 33);
+            this.rbFerrari.Name = "rbFerrari";
+            this.rbFerrari.Size = new System.Drawing.Size(67, 20);
+            this.rbFerrari.TabIndex = 0;
+            this.rbFerrari.TabStop = true;
+            this.rbFerrari.Text = "Ferrari";
+            this.rbFerrari.UseVisualStyleBackColor = true;
+            this.rbFerrari.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton6);
-            this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.rbYellow);
+            this.groupBox2.Controls.Add(this.rbRed);
+            this.groupBox2.Controls.Add(this.rbBlack);
             this.groupBox2.Location = new System.Drawing.Point(447, 22);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 168);
@@ -103,38 +104,41 @@
             this.groupBox2.Text = "Elegir color";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // radioButton6
+            // rbYellow
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(42, 109);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(77, 20);
-            this.radioButton6.TabIndex = 2;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Amarillo";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbYellow.AutoSize = true;
+            this.rbYellow.Location = new System.Drawing.Point(42, 109);
+            this.rbYellow.Name = "rbYellow";
+            this.rbYellow.Size = new System.Drawing.Size(77, 20);
+            this.rbYellow.TabIndex = 2;
+            this.rbYellow.TabStop = true;
+            this.rbYellow.Text = "Amarillo";
+            this.rbYellow.UseVisualStyleBackColor = true;
+            this.rbYellow.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged_1);
             // 
-            // radioButton5
+            // rbRed
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(42, 70);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(57, 20);
-            this.radioButton5.TabIndex = 1;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Rojo";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rbRed.AutoSize = true;
+            this.rbRed.Location = new System.Drawing.Point(42, 70);
+            this.rbRed.Name = "rbRed";
+            this.rbRed.Size = new System.Drawing.Size(57, 20);
+            this.rbRed.TabIndex = 1;
+            this.rbRed.TabStop = true;
+            this.rbRed.Text = "Rojo";
+            this.rbRed.UseVisualStyleBackColor = true;
+            this.rbRed.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged_1);
             // 
-            // radioButton4
+            // rbBlack
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(42, 33);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(66, 20);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Negro";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbBlack.AutoSize = true;
+            this.rbBlack.Location = new System.Drawing.Point(42, 33);
+            this.rbBlack.Name = "rbBlack";
+            this.rbBlack.Size = new System.Drawing.Size(66, 20);
+            this.rbBlack.TabIndex = 0;
+            this.rbBlack.TabStop = true;
+            this.rbBlack.Text = "Negro";
+            this.rbBlack.UseVisualStyleBackColor = true;
+            this.rbBlack.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged_1);
             // 
             // pictureBox1
             // 
@@ -142,6 +146,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(24, 219);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(764, 319);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -168,13 +173,13 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbMaserati;
+        private System.Windows.Forms.RadioButton rbBugatti;
+        private System.Windows.Forms.RadioButton rbFerrari;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rbYellow;
+        private System.Windows.Forms.RadioButton rbRed;
+        private System.Windows.Forms.RadioButton rbBlack;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
