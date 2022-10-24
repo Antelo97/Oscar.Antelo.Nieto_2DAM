@@ -127,34 +127,34 @@
     <value>Supprimer le classement</value>
   </data>
   <data name="creator" xml:space="preserve">
-    <value>Créateur: Oscar Antelo</value>
+    <value>Createur: Oscar Antelo</value>
   </data>
   <data name="currentGame" xml:space="preserve">
     <value>Jeu en cours</value>
   </data>
   <data name="difficulty" xml:space="preserve">
-    <value>Difficulté</value>
+    <value>Difficulte</value>
   </data>
   <data name="easy" xml:space="preserve">
     <value>Facile</value>
   </data>
   <data name="easyMode" xml:space="preserve">
-    <value>Difficulté: facile</value>
+    <value>Difficulte: facile</value>
   </data>
   <data name="endgameDefeat" xml:space="preserve">
-    <value>Temps est révolu!</value>
+    <value>Temps est revolu!</value>
   </data>
   <data name="endgameMessage" xml:space="preserve">
     <value>Message de fin de partie</value>
   </data>
   <data name="endgameVictory" xml:space="preserve">
-    <value>Vous avez terminé le jeu!</value>
+    <value>Vous avez termine le jeu!</value>
   </data>
   <data name="english" xml:space="preserve">
     <value>Anglais</value>
   </data>
   <data name="errorDifficulty" xml:space="preserve">
-    <value>Sélectionnez un niveau de difficulté</value>
+    <value>Sélectionnez un niveau de difficulte</value>
   </data>
   <data name="errorMessage" xml:space="preserve">
     <value>Message d'erreur</value>
@@ -166,10 +166,10 @@
     <value>Sortir</value>
   </data>
   <data name="extreme" xml:space="preserve">
-    <value>Extrême</value>
+    <value>Extreme</value>
   </data>
   <data name="extremeMode" xml:space="preserve">
-    <value>Difficulté: extrême</value>
+    <value>Difficulte: extreme</value>
   </data>
   <data name="findPairs" xml:space="preserve">
     <value>Trouve les paires</value>
@@ -181,12 +181,12 @@
     <value>Dur</value>
   </data>
   <data name="hardMode" xml:space="preserve">
-    <value>Difficulté: difficile</value>
+    <value>Difficulte: difficile</value>
   </data>
   <data name="infoCurrentGame" xml:space="preserve">
     <value>● Joueur:
-● Difficulté:
-● Délai(s):
+● Difficulte:
+● Delai(s):
 ● Erreurs commises:
 ● Note:</value>
   </data>
@@ -195,7 +195,7 @@
 ● Pénalité/erreur:</value>
   </data>
   <data name="infoSummaryGame" xml:space="preserve">
-    <value>● Temps passé:
+    <value>● Temps passe:
 ● Erreurs commises:
 ● Note:</value>
   </data>
@@ -206,7 +206,7 @@
     <value>Demi</value>
   </data>
   <data name="mediumMode" xml:space="preserve">
-    <value>Difficulté: moyenne</value>
+    <value>Difficulte: moyenne</value>
   </data>
   <data name="ranking" xml:space="preserve">
     <value>Classement</value>
@@ -218,10 +218,10 @@
     <value>Espagnol</value>
   </data>
   <data name="start" xml:space="preserve">
-    <value>Démarrer jeu</value>
+    <value>Demarrer jeu</value>
   </data>
   <data name="summaryGame" xml:space="preserve">
-    <value>Résumé du jeu</value>
+    <value>Resumé du jeu</value>
   </data>
   <data name="timeLeft" xml:space="preserve">
     <value>Temps restant</value>

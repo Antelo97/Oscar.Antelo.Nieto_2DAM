@@ -36,7 +36,7 @@ public class P01b_Opcion {
 
     @Override
     public String toString() {
-        String str = "\n     ∎ id: " + id + ", texto: " + text + ", resultado: " + result;
+        String str = "\n  ∎ id: " + id + ", texto: " + text + ", resultado: " + result;
         return str;
     }
 }

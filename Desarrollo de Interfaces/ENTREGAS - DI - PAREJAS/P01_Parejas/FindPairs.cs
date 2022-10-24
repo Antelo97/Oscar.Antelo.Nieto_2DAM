@@ -35,6 +35,7 @@ namespace Practica01
         String username = "";
         bool difficulty = false;
         String difficultyMode = "";
+        int difficultyModeNumber = -1;
         int mistakes = 0;
         int score = -1;
         int time = -1;
@@ -83,6 +84,7 @@ namespace Practica01
         {
             difficulty = true;
             difficultyMode = Idiomas.Idioma.easy;
+            difficultyModeNumber = 1;
             time = 240000;
             penalty = 4000;
 
@@ -100,6 +102,7 @@ namespace Practica01
         {
             difficulty = true;
             difficultyMode = Idiomas.Idioma.medium;
+            difficultyModeNumber = 2;
             time = 220000;
             penalty = 6000;
 
@@ -117,6 +120,7 @@ namespace Practica01
         {
             difficulty = true;
             difficultyMode = Idiomas.Idioma.hard;
+            difficultyModeNumber = 3;
             time = 200000;
             penalty = 8000;
 
@@ -134,6 +138,7 @@ namespace Practica01
         {
             difficulty = true;
             difficultyMode = Idiomas.Idioma.extreme;
+            difficultyModeNumber = 4;
             time = 180000;
             penalty = 10000;
 
@@ -220,6 +225,24 @@ namespace Practica01
 
         private void traducirIdioma()
         {
+
+            if (difficultyModeNumber == 1)
+            {
+                difficultyMode = Idiomas.Idioma.easy;
+            }
+            else if (difficultyModeNumber == 2)
+            {
+                difficultyMode = Idiomas.Idioma.medium;
+            }
+            else if (difficultyModeNumber == 3)
+            {
+                difficultyMode = Idiomas.Idioma.hard;
+            }
+            else if (difficultyModeNumber == 4)
+            {
+                difficultyMode = Idiomas.Idioma.extreme;
+            }
+
             btnStart.Text = Idiomas.Idioma.start;
             lblUsername.Text = Idiomas.Idioma.username;
             lblDifficulty.Text = Idiomas.Idioma.difficulty;
@@ -286,7 +309,7 @@ namespace Practica01
 
                 int sTime = time / 1000;
                 timer.Enabled = true;
-                flpGameBoard.Visible = true;
+                tlpGameBoard.Visible = true;
                 lblSecondsLeft.Text = sTime.ToString();
                 pbCountdown.Maximum = sTime;
                 pbCountdown.Value = sTime;
@@ -526,7 +549,7 @@ namespace Practica01
             pbCountdown.Maximum = sTime;
             pbCountdown.Value = sTime;
 
-            flpGameBoard.Visible = false;
+            tlpGameBoard.Visible = false;
             lblCurrentGame.Visible = false;
             lblInfoCurrentGame.Visible = false;
             lblDataCurrentGame.Visible = false;
@@ -611,10 +634,6 @@ namespace Practica01
             }
         }
 
-        private void pbCountdown_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -636,6 +655,19 @@ namespace Practica01
 
         }
 
-       
+        private void flpGameBoard_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblTimeLeft_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

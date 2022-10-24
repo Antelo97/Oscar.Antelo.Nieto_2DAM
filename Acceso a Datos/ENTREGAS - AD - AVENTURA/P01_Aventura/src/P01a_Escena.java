@@ -1,10 +1,12 @@
 import java.util.ArrayList;
 
 public class P01a_Escena {
-
     private int code;
     private String text;
     private ArrayList<P01b_Opcion> options;
+
+    public P01a_Escena() {
+    }
 
     public P01a_Escena(int code, String text, ArrayList<P01b_Opcion> options) {
         this.code = code;
@@ -38,7 +40,7 @@ public class P01a_Escena {
 
     @Override
     public String toString() {
-        String str = "ESCENA\n● Código: " + code + "\n● Texto: " + text + "● Opciones" + options.toString() + "\n";
+        String str = "\nESCENA\n● Código: " + code + "\n● Texto: " + text + "\n● Opciones: " + options.toString() + "\n";
         return str;
     }
 }
