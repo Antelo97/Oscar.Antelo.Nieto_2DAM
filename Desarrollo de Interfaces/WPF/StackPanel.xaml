@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF.StackPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="StackPanel" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Vertical">
+            <Button Height="100" Content="Botón1" Background="Yellow"/>
+            <Button Width="150" Content="Botón2" Background="Yellow"/>
+            <Button Content="Botón3" Background="Yellow"/>
+            <Button Height="50" Content="Botón4" Background="Yellow"/>
+            <Button Content="Botón5" Background="Yellow"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Height="100" Content="BotónA" Background="Aqua"/>
+            <Button Width="150" Content="BotónB" Background="Aqua"/>
+            <Button Content="BotónC" Background="Aqua"/>
+            <Button Height="50" Content="BotónD" Background="Aqua"/>
+            <Button Content="BotónE" Background="Aqua"/>
+        </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>
